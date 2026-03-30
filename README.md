@@ -1,5 +1,5 @@
 StrideMate – AI-Powered Navigation Assistant for the Visually Impaired
-StrideMate is an intelligent mobile navigation assistant designed to support visually impaired users in understanding and interacting with their surroundings. The application combines real-time computer vision, object detection, text recognition, voice feedback, and navigation assistance into a single accessible Android application.
+StrideMate is an intelligent mobile navigation assistant designed to support visually impaired users in understanding and interacting with their surroundings. The application combines real-time computer vision, object detection,depth estimation,text recognition, voice feedback, and navigation assistance into a single accessible Android application.
 Using the device camera, StrideMate continuously detects nearby objects and provides spoken feedback such as the object name and estimated distance. It also includes OCR-based text recognition to read signs, labels, and printed text aloud, helping users navigate indoor and outdoor environments more independently.
 
  Key Features:
@@ -7,11 +7,12 @@ Using the device camera, StrideMate continuously detects nearby objects and prov
 2. Bounding box visualization for detected objects
 3. OCR-based text recognition using ML Kit
 4. Voice feedback through Text-to-Speech
-5. Voice command support using Speech Recognition
-6. Torch/flashlight toggle for low-light environments
-7. Google Maps navigation integration
-8. Estimated object distance using AI-based depth estimation
-9. Accessible, voice-first user interface designed for ease of use
+5. Depth estimation using MiDas
+6. Voice command support using Speech Recognition
+7. Torch/flashlight toggle for low-light environments
+8. Google Maps navigation integration
+9. Estimated object distance using AI-based depth estimation
+10. Accessible, voice-first user interface designed for ease of use
 
 Technologies Used:
 1. Kotlin
@@ -23,7 +24,7 @@ Technologies Used:
 7. TensorFlow Lite
 8. Text-to-Speech (TTS)
 9. SpeechRecognizer API
-10. Google Maps Intent Integration
+    Google Maps Intent Integration
 
  Working Principle:
 1. The camera feed is captured in real time using CameraX.
